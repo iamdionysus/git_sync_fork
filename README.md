@@ -1,5 +1,8 @@
 # git sync
 
+Helps to sync a fork to keep it up-to-date with the upstream as 
+[described](https://help.github.com/articles/syncing-a-fork/).
+
 * `git pull` first to sync with origin and current branch
 * fetch upstream and merge to upstream/master
 * push current branch to origin
