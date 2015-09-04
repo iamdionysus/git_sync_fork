@@ -11,7 +11,7 @@ Gem::Specification.new do |spec|
   spec.summary       = "Help to sync fork from upstream by extending git command"
   spec.homepage      = "https::/github.com/iamdionysus/git_sync_fork"
 
-  spec.files         = ["bin/git-sync", "lib/**/*.rb"]
+  spec.files         = Dir["*.md", "bin/*", "lib/**/*.rb", "*.gemspec"]
   spec.bindir        = "bin"
   spec.executables   = "git-sync"
   spec.require_paths = ["lib"]
