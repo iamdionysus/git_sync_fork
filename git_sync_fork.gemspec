@@ -9,7 +9,7 @@ Gem::Specification.new do |spec|
   spec.email         = ["iamdionysus@gmail.com"]
 
   spec.summary       = "Help to sync fork from upstream by extending git command"
-  spec.homepage      = "https::/github.com/iamdionysus/git_sync_fork"
+  spec.homepage      = "https://github.com/iamdionysus/git_sync_fork"
 
   spec.files         = Dir["*.md", "bin/*", "lib/**/*.rb", "*.gemspec"]
   spec.bindir        = "bin"
